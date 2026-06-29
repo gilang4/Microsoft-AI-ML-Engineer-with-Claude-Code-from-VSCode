@@ -1,0 +1,25 @@
+📊 PHISHING DETECTION DAILY REPORT
+Generated: 2026-06-27 22:22
+==================================================
+**Daily Phishing Detection Report**
+
+**Executive Summary:**
+Our daily phishing detection report reveals that our full model achieved a high accuracy of 92.98%, while the simplified model with only two features performed at 84.44%. This significant drop in performance highlights the importance of utilizing the full feature set for optimal results.
+
+**Key Findings:**
+
+• The top three most important features for phishing detection are PrefixSuffix-, AnchorURL, and HTTPS, emphasizing the critical role these attributes play in distinguishing legitimate from malicious communications.
+• A total of 516 test samples were misclassified by our models, indicating areas where further refinement is necessary to improve overall performance.
+• The simplified model's reduced accuracy raises concerns about its viability for production use, as it may lead to a significant decrease in phishing detection rates.
+
+**Action Items & Risks:**
+
+• Implement additional training data to enhance the learning capabilities of both models, with a focus on improving the accuracy of our full model.
+• Conduct thorough risk assessments to determine whether the simplified model's reduced performance justifies its use in production environments, and consider implementing additional safeguards or workarounds as needed.
+• Collaborate with cross-functional teams to identify potential vulnerabilities in our current detection pipeline and develop strategies to mitigate them, ensuring the integrity of our phishing detection capabilities.
+==================================================
+
+📈 Raw Metrics:
+  - Full Accuracy: 92.98%
+  - 2-Feature Accuracy: 84.44%
+  - Misclassified: 516
